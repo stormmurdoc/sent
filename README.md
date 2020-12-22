@@ -1,3 +1,5 @@
+# Murdocs Fork of sent
+
 sent is a simple plaintext presentation tool.
 
 sent does not need latex, libreoffice or any other fancy file format, it uses
@@ -33,21 +35,21 @@ with `#` will be ignored. A `\` at the beginning of the line escapes `@` and
 `#`. A presentation file could look like this:
 
 	sent
-	
+
 	@nyan.png
-	
+
 	depends on
 	- Xlib
 	- Xft
 	- farbfeld
-	
+
 	sent FILENAME
 	one slide per paragraph
 	# This is a comment and will not be part of the presentation
 	\# This and the next line start with backslashes
-	
+
 	\@FILE.png
-	
+
 	thanks / questions?
 
 
