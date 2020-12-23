@@ -11,8 +11,7 @@
 Example
         sent -f serif -c \#cc88cc -b gray90 ./example
 
-
-sent is a simple plaintext presentation tool.
+# sent is a simple plaintext presentation tool.
 
 sent does not need latex, libreoffice or any other fancy file format, it uses
 plaintext files to describe the slides and can include images via farbfeld.
