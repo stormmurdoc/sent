@@ -1,5 +1,17 @@
 # Murdocs Fork of sent
 
+## Patches
+
+- Use Bilinear Scaling for Image Slides
+- Commandline Options
+- Progress Bar
+
+## Usage
+
+Example
+        sent -f serif -c \#cc88cc -b gray90 ./example
+
+
 sent is a simple plaintext presentation tool.
 
 sent does not need latex, libreoffice or any other fancy file format, it uses
