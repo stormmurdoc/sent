@@ -1,5 +1,7 @@
 # Murdocs Fork of sent
 
+![GIF](./media/sent.gif)
+
 ## Patches
 
 - Use Bilinear Scaling for Image Slides
