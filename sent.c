@@ -576,6 +576,12 @@ xdraw()
 			         0,
 			         slides[idx].lines[i],
 			         0);
+		if (idx != 0 && progressheight != 0) {
+			drw_rect(d,
+			         0, xw.h - progressheight,
+			         (xw.w * idx)/(slidecount - 1), progressheight,
+			         1, 0);
+		}
 		drw_map(d, xw.win, 0, 0, xw.w, xw.h);
 	} else {
 		if (!(im->state & SCALED))
