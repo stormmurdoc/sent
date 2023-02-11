@@ -8,6 +8,14 @@
 - Commandline Options
 - Progress Bar
 
+## PNG support
+
+Please install the package farbfeld for PNG support.
+
+Arch Linux
+
+        sudo pacman -S farbfeld
+
 ## Usage
 
 Example
